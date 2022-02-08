@@ -1,0 +1,45 @@
+
+
+html{
+    
+    background-image: radial-gradient(circle at top right, #ff8a00, red, #e52e71);
+        background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body{
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.my-cool-wrapper {
+    min-height: 100vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+ }
+
+
+.my-cool-wrapper img{
+    position: center;
+    width: 90%;
+    margin: auto;
+    display: block;
+    max-width:100%;
+    max-height:auto;
+    position: center;
+ }
+
+
+@media print {
+
+  html, body {
+    height:100%; 
+    margin: 0 !important; 
+    padding: 0 !important;
+    overflow: hidden;
+  }
+
+}
